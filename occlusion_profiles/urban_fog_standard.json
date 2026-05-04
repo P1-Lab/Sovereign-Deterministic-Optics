@@ -1,0 +1,20 @@
+{
+  "substrate_id": "LEG-FOG-URBAN-001",
+  "material_properties": {
+    "composition": "aqueous_aerosol",
+    "refractive_index": 1.33,
+    "droplet_size_median_um": 10.0,
+    "mass_concentration_mg_m3": 50.0
+  },
+  "operational_thresholds": {
+    "vitrification_threshold": 0.65,
+    "absorption_ratio": 0.05,
+    "diffusion_limit": 0.82,
+    "attenuation_coefficient": 0.44
+  },
+  "signal_logic": {
+    "filter_mode": "diffusion_resolution",
+    "lattice_lock_stability": 0.70,
+    "transient_audit_required": true
+  }
+}
