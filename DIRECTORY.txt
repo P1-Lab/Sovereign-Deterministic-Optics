@@ -1,0 +1,23 @@
+Sovereign-Deterministic-Optics/
+│
+├── README.md                  # Core philosophy and protocol definition
+├── MANIFESTO.md               # The counterargument to AI Swarm Navigation
+│
+├── src/
+│   ├── deterministic_logic/   # The core physics-first mathematical models
+│   │   ├── wavefront_reconstruction.py
+│   │   ├── phase_shift_filtering.py
+│   │   └── lattice_integrity.md
+│   │
+│   ├── occlusion_profiles/    # Environmental substrate configurations (.json)
+│   │   ├── silica_sand_dense.json       # Priority 1: High-velocity particulate filtering
+│   │   ├── wet_asphalt_specular.json    # Priority 2: Rain reflection and phantom-glare logic
+│   │   ├── urban_fog_standard.json      # Legacy baseline
+│   │   └── particulate_smoke.json       # Legacy baseline
+│   │
+│   └── embodiment/            # Hardware application guidelines
+│       ├── single_node_v2v_array.md     # Automotive logic distribution
+│       └── autonomous_drone_optics.md   # Aerial particulate penetration
+│
+└── examples/
+    └── sandstorm_penetration_demo.py    # Lightweight script demonstrating the .json application
