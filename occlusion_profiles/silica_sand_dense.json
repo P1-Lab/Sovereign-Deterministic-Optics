@@ -1,0 +1,20 @@
+{
+  "substrate_id": "MENA-SILICA-DENSE-001",
+  "material_properties": {
+    "composition": "silica_particulate",
+    "refractive_index": 1.54,
+    "dielectric_constant": 3.9,
+    "particle_density_kg_m3": 2650
+  },
+  "operational_thresholds": {
+    "vitrification_threshold": 0.88,
+    "critical_phase_delta_deg": 12.5,
+    "velocity_cutoff_m_s": 45.0,
+    "scattering_coefficient": 0.94
+  },
+  "signal_logic": {
+    "filter_mode": "particulate_rejection",
+    "lattice_lock_stability": 0.92,
+    "transient_audit_required": true
+  }
+}
