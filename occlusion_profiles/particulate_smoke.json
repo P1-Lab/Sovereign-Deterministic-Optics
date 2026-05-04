@@ -1,0 +1,20 @@
+{
+  "substrate_id": "LEG-SMOKE-CARBON-001",
+  "material_properties": {
+    "composition": "carbon_particulate",
+    "refractive_index": 1.7,
+    "particle_geometry": "irregular",
+    "soot_volume_fraction": 1.5e-6
+  },
+  "operational_thresholds": {
+    "vitrification_threshold": 0.72,
+    "thermal_interference_baseline": 300.0,
+    "scattering_albedo": 0.3,
+    "penetration_depth_max_m": 150.0
+  },
+  "signal_logic": {
+    "filter_mode": "thermal_lattice_isolation",
+    "phantom_transient_rejection": true,
+    "deterministic_depth_audit": false
+  }
+}
