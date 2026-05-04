@@ -1,0 +1,20 @@
+{
+  "substrate_id": "GLB-RAIN-SPECULAR-002",
+  "material_properties": {
+    "surface": "asphalt_aggregate",
+    "hydration_lattice_baseline": 0.72,
+    "brewster_angle_coeff": 53.1,
+    "reflectivity_index": 0.85
+  },
+  "operational_thresholds": {
+    "vitrification_threshold": 0.94,
+    "glare_suppression_slope": 1.15,
+    "phase_coherence_limit": 0.78,
+    "ambient_hydration_max": 1.0
+  },
+  "signal_logic": {
+    "filter_mode": "specular_subtraction",
+    "phantom_transient_rejection": true,
+    "deterministic_depth_audit": true
+  }
+}
